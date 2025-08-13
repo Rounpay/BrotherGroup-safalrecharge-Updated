@@ -11,6 +11,8 @@ import android.provider.ContactsContract;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -64,6 +66,9 @@ public class DMRLoginNew extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_dmrlogin);
         opTypeIntent = getIntent().getIntExtra("OpType", 0);
         oidIntent = getIntent().getStringExtra("OID");

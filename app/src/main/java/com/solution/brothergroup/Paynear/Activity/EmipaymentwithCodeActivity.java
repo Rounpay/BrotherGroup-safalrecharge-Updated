@@ -13,6 +13,7 @@ import com.solution.brothergroup.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 /**
  * @Author : Bhavani.A
@@ -31,6 +32,9 @@ public class EmipaymentwithCodeActivity extends AppCompatActivity implements Pay
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_paynear_emi_paymet_with_code);
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("EMI Payment With Code");

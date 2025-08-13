@@ -29,6 +29,7 @@ import com.solution.brothergroup.usefull.CustomLoader;
 import java.util.ArrayList;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import retrofit2.Call;
@@ -54,6 +55,9 @@ public class QRPayActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_qr_pay);
         mCustomAlertDialog = new CustomAlertDialog(this, true);
         loader = new CustomLoader(this, android.R.style.Theme_Translucent_NoTitleBar);

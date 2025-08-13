@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.brothergroup.app-mergeDebugResources-63:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Roundpay Developer\\.gradle\\caches\\8.13\\transforms\\2ff4d64aea1947e8f358369287cbcd4d\\transformed\\jetified-mPaySdk_release_2.0.8_23102019\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "138"
+                    }
+                }
+            ]
+        }
+    ]
+}

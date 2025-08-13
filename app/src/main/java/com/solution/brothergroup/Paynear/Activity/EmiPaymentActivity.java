@@ -28,7 +28,7 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
+import androidx.core.view.WindowInsetsControllerCompat;
 
 
 public class EmiPaymentActivity extends AppCompatActivity
@@ -54,6 +54,9 @@ public class EmiPaymentActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_paynear_emipayment);
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("EMI Payment");

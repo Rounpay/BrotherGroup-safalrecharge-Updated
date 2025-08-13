@@ -4,6 +4,8 @@ import android.app.DatePickerDialog;
 import android.os.Bundle;
 import com.google.android.material.textfield.TextInputLayout;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -72,6 +74,9 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener, A
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.sign_up);
 
         getId();

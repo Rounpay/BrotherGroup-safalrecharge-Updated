@@ -1,4 +1,4 @@
-com.solution.safalrecharges
+com.solution.brothergroup
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -4641,6 +4641,7 @@ drawable layout_shadow
 drawable left_arrow
 drawable live_bk_white_100_120
 drawable load
+drawable loader
 drawable loading
 drawable login_background
 drawable m3_appbar_background
@@ -4783,6 +4784,7 @@ drawable remaining
 drawable right_icon
 drawable rnd_logo
 drawable rnd_logo_mini
+drawable rnd_logo_new
 drawable round_balance_button_style
 drawable round_button_style
 drawable round_corner

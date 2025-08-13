@@ -27,6 +27,7 @@ import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 public class AepsCashWithDrawlActivity extends AppCompatActivity {
 
@@ -43,6 +44,9 @@ public class AepsCashWithDrawlActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_aeps_cash_withdrawl_activity);
         toolbar=findViewById(R.id.toolbar);
         toolbar.setTitle("AEPS Transaction Receipt");

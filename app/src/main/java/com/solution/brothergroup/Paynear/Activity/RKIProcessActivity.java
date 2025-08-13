@@ -18,6 +18,7 @@ import com.solution.brothergroup.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 
 /**
@@ -39,8 +40,12 @@ public class RKIProcessActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(PN_LOG, "onCreate()");
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_paynear_regd);
+
+        Log.i(PN_LOG, "onCreate()");
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("RKI Process");
         toolbar.setTitleTextColor(Color.WHITE);

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.brothergroup.app-mergeDebugResources-63:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Roundpay Developer\\.gradle\\caches\\8.13\\transforms\\06242a60f2114798bc4c963552796896\\transformed\\jetified-roundpay_shopping\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

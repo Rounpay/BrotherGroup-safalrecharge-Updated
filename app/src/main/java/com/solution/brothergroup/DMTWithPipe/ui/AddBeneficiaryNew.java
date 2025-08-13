@@ -11,6 +11,8 @@ import android.provider.ContactsContract;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -55,6 +57,9 @@ public class AddBeneficiaryNew extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_add_beneficiary);
         opTypeIntent = getIntent().getIntExtra("OpType", 0);
         oidIntent = getIntent().getStringExtra("OID");

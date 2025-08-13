@@ -40,6 +40,7 @@ import java.io.IOException;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 
 public class QRScanActivity extends AppCompatActivity implements ScannerView.ResultHandler {
@@ -61,6 +62,9 @@ public class QRScanActivity extends AppCompatActivity implements ScannerView.Res
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_qrscan);
         loader = new CustomLoader(this, android.R.style.Theme_Translucent_NoTitleBar);
         flashImage = findViewById(R.id.flashImage);

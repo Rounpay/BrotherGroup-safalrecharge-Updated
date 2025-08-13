@@ -3,6 +3,8 @@ package com.solution.brothergroup.Util;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import android.view.View;
 import android.widget.TextView;
 
@@ -15,6 +17,9 @@ public class Viewbill extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.viewbill);
         String respose = getIntent().getExtras().getString("respose");
         Gson gson = new Gson();

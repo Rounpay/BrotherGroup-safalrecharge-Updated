@@ -11,14 +11,14 @@ android {
         }
     }
 
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "com.solution.brothergroup"
-        minSdkVersion 23
-        targetSdkVersion 34
-        versionCode 2
-        versionName "1.1"
+        minSdkVersion 27
+        targetSdkVersion 36
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         signingConfig signingConfigs.config
         vectorDrawables.useSupportLibrary = true

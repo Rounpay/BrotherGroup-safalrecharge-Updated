@@ -27,6 +27,7 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 
 /**
@@ -47,6 +48,9 @@ public class TransactionStatusActivity extends AppCompatActivity implements Paym
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_paynear_transaction_status);
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Transaction Status");

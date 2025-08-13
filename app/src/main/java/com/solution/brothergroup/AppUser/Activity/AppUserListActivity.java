@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,6 +57,9 @@ public class AppUserListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_app_user_list);
 
         Toolbar toolbar = findViewById(R.id.toolbar);

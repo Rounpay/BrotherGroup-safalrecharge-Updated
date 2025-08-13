@@ -36,6 +36,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 public class MiniAtmRecriptActivity extends AppCompatActivity {
     private LinearLayout shareView;
@@ -90,6 +91,9 @@ public class MiniAtmRecriptActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_mini_atm_recript);
         mCustomLoader = new CustomLoader(this, android.R.style.Theme_Translucent_NoTitleBar);
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();

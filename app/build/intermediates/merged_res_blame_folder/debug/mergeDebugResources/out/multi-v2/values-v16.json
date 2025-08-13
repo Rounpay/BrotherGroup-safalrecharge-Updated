@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.brothergroup.app-mergeDebugResources-63:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Roundpay Developer\\.gradle\\caches\\8.13\\transforms\\ff8aeeff5775e5d3557542542ae6a187\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Roundpay Developer\\.gradle\\caches\\8.13\\transforms\\a00fac1cd0abf9922f457cf109d1cdd5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

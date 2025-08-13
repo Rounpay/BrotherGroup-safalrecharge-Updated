@@ -11,10 +11,11 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "BrotherGroup 1.0-debug.apk"
+      "versionCode": 3,
+      "versionName": "1.2",
+      "outputFile": "BrotherGroup 1.2-debug.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 27
 }

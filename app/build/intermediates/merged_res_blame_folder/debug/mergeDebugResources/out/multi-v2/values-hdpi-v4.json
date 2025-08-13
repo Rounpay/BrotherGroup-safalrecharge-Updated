@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.brothergroup.app-mergeDebugResources-63:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Roundpay Developer\\.gradle\\caches\\8.13\\transforms\\a00fac1cd0abf9922f457cf109d1cdd5\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

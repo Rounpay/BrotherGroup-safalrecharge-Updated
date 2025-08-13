@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 import com.solution.brothergroup.R;
 import com.solution.brothergroup.Util.ApplicationConstant;
@@ -33,6 +34,9 @@ public class TermAndCondition extends AppCompatActivity implements View.OnTouchL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.privacypolicy);
         closeIv = (ImageView)findViewById(R.id.closeIv);
         term = (TextView)findViewById(R.id.term);

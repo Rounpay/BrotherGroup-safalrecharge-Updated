@@ -3,6 +3,8 @@ package com.solution.brothergroup.DthCustomerInfo.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import com.google.android.material.tabs.TabLayout;
+
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -44,6 +46,9 @@ public class DthConsumerInfoScreen extends AppCompatActivity {//consumer_info_sc
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.consumer_info_screen);
 
 

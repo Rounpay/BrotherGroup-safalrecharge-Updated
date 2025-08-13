@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -57,6 +58,9 @@ public class BrowsePlanScreenActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.browse_plan_layout);
         response = getIntent().getExtras().getString("response") + "";
         toolbar = findViewById(R.id.toolbar);

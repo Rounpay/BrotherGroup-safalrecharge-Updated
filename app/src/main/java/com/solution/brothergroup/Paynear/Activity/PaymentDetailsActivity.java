@@ -33,6 +33,7 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 //import com.pnsol.sdk.newland.interfaces.NewlandPaymentConst;
 
@@ -55,6 +56,9 @@ public class PaymentDetailsActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowInsetsControllerCompat controller = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+        controller.setAppearanceLightStatusBars(true);
+        controller.setAppearanceLightNavigationBars(true);
         setContentView(R.layout.activity_paynear_payment_details);
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Payment Detials");
