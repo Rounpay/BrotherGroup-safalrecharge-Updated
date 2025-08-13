@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.safalrecharges.app-mergeReleaseResources-64:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ashif Roundpay\\.gradle\\caches\\transforms-3\\14bba09ccb1f1b960c339b131782d917\\transformed\\jetified-roundpay_shopping\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

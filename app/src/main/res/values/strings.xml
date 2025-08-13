@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">BrotherGroup</string>
+    <string name="newpass_error">New password not matched!</string>
+    <string name="password_error">Please enter valid password</string>
+    <string name="pincode_error">Enter valid pincode</string>
+    <string name="mobilenumber_error">Enter Valid Mobile Number</string>
+    <string name="successful_title">Successful!</string>
+    <string name="server">server</string>
+    <string name="api_intermediary_path">api_intermediary_path</string>
+    <string name="rechage_note">Note : Please verify all information before doing transacitons. After transaction our company will not responsible.</string>
+    <string name="rechage_confiorm_note">Note : Kindly check once again all information before doing transacitons. Otherwise after transaction recharge amount will not reverse.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="bene_bank_error">Please select bank name</string>
+    <string name="bene_acc_error">Please enter valid account number</string>
+
+    <!-- TODO: error strings -->
+    <string name="err_msg_network_title">Sorry!</string>
+    <string name="err_msg_network">Slow or No Internet Connection!!!</string>
+    <string name="err_msg_name">Please Enter Your Valid Name</string>
+    <string name="err_msg_email_blank">Email Can not be Blank.</string>
+    <string name="err_msg_email">Please Enter Valid Email Id</string>
+    <string name="err_msg_mobile">Please Enter Your Mobile No.</string>
+    <string name="err_msg_otp">Please Enter a Valid Otp</string>
+    <string name="err_msg_mobile_length">Please Enter Your Mobile No.of 10 Digits.</string>
+    <string name="err_msg_pass">Please Enter Your Password.</string>
+    <string name="err_msg_text">Please Enter the Text.</string>
+
+    <string name="err_msg_cnf_pass">Please Enter Your Confirm Password.</string>
+    <string name="err_msg_match_pass">New Password and Confirm Password does not match.</string>
+
+    <string name="password_expired_msg">Your password has been expired, Please change before using this app</string>
+    <string name="pin_password_expired_msg">Your have not created Pin Password, Please create first before using this app.</string>
+    <string name="samepass_error">New password cann\'t be same as old password!</string>
+
+    <string name="str_ShowOnPermisstion">Please Allow some permission for your app. If you deny permissions will not be able to use functionality of this app.</string>
+
+    <string name="gps_network_not_enabled">Location not enabled !</string>
+    <string name="open_location_settings">Enable</string>
+    <string name="upgradepackage">Dear Customer,You are not eligible to use this service.Please activate this service.
+प्रिय विक्रेता इस सेवा के उपयोग के लिए आप अधिकृत नहीं है इस सेवा को Active करने के लिए अपना पैकेज upgrade करें या निम्न फ़ोन पर संपर्क करें</string>
+
+    <string name="rupiya">\u20B9</string>
+
+    <!--  <string name="cancel">\u274C</string>
+    <string name="delete">\u2718</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="delete">\u2718</string>
+
+    <string name="network_error_message">Please check your network connection and try again.</string>
+    <string name="network_error_title">Network Error!</string>
+
+    <string name="str_Note"><font color="black">Note:</font> <font color="red">Always make sure your Account Number \u0026 IFSC Code is correct. Company will not be liable for any wrong transactions.</font></string>
+    <string name="err_msg_valid_mobile">Please Enter Valid Mobile No</string>
+    <string name="paymentoptioncode">payment option code</string>
+
+
+    //payneer
+    <string name="refer_str">BrotherGroup - भारतवासियों की विश्वसनीय सुपर ऐप! घर बैठे बैठे ढेरों कमाएं और अपने कमाई का उपयोग करें दैनिक ज़रूरतों का सामान खरीदने में, रीचार्ज/बिल्स भुगतान में या किसी भी दूकान पर पेमेंट करने में!\n
+        कमाना है बड़ा आसान - बस अपने दोस्तों को रेफेर करके नेटवर्क बनाकर, या मज़ेदार गेम्स टूर्नामेंट्स खेल कर, या सिर्फ हमारे प्रोडक्ट्स व्हाट्सऐप पर शेयर करके! \n
+        नेटवर्क की हर खरीद पर आप पाएंगे अलग से कमीशन! यही नहीं,\nहमारी कई और मिनी-ऐप्स उपयोग करें और बनाएं अपने दैनिक जीवन को और भी आसान\n\n
+        यहाँ से डाउनलोड करें और मेरे रेफरल कोड का उपयोग करें
+
+
+</string>
+    <string name="network_error">Slow Network Connection,Please check your network connection and try again!!!</string>
+    <string name="radio_bluetooth">Bluetooth</string>
+    <string name="radio_usb">USB</string>
+    <string name="Recharge_string">Recharge, Pay Bills &amp; Money Transfer</string>
+    <string name="err_something_went_wrong">Temporary server error has been occurred.</string>
+    <string name="NotAuthorized">You are not authorized to use this service.</string>
+    <string name="mobile_tollfree">Mobile Tollfree </string>
+    <string name="dth_tollfree">DTH Tollfree </string>
+
+
+    <string name="some_thing_error">Some thing error please try after some time</string>
+    <string name="err_empty_field">Field can\'t be empty</string>
+    <string name="invalid_aadhar">Invalid AADHAR no.</string>
+    <string name="invalid_pan">Enter Valid PAN no</string>
+    <string name="profile_update_notice">For KYC update please update user with all given fields</string>
+    <string name="reports">Reports</string>
+    <string name="amount">Amount</string>
+    <string name="address">Address</string>
+    <string name="BankName">Bank Name</string>
+    <string name="Via">Via</string>
+    <string name="start_date">From Date</string>
+    <string name="end_date">To Date</string>
+    <string name="wallet_type">Wallet Type</string>
+    <string name="action_filter">Filter</string>
+    <string name="debit_credit">Debit/Credit</string>
+    <string name="received_by">Received By</string>
+    <string name="choose_top">Choose Top</string>
+    <string name="choose_refund_status">Choose Refund Status</string>
+    <string name="choose_date_type">Choose Date Type</string>
+    <string name="choose_criteria">Choose Criteria</string>
+    <string name="enter_criteria">Enter Criteria</string>
+    <string name="AepsNotApproved">Your Aeps status is not approved.</string>
+
+    <string name="SERVICEDOWN"><b><i>SERVICEDOWN</i></b></string>
+    <string name="UNDERSCREENING"><b>UNDERSCREENING</b></string>
+    <string name="REJECT"><b><i>REJECTED</i></b></string>
+    <string name="UNAUTHORISED"><b>UNAUTHORISED</b></string>
+    <string name="INCOMPLETE"><b>INCOMPLETE</b></string>
+    <string name="Redirection"><b>Redirection</b></string>
+    <string name="mob_num">Mobile Number</string>
+    <string name="Physical">Physical</string>
+    <string name="Digital">Digital</string>
+    <string name="str_ShowOnPermisstionDenied"><![CDATA[To using all functionality of this app, please allow permissions. Go to App Setting -> Permissions enable all permissions.]]></string>
+    <string name="dispute_msg">Are you sure you want to Dispute to this transaction</string>
+    <string name="rs_0_0_0">\u20B9 0.0 (0)</string>
+    <string name="choose_mode">Choose Mode</string>
+    <string name="child_mobile_number">Child Mobile Number</string>
+
+
+    <string name="proceed_upi">Transaction with UPI</string>
+
+
+    <string-array name="nonActualDeviceSimArray">
+        <item>Android</item>
+        <item>android</item>
+        <item>emulator</item>
+        <item>Emulator</item>
+        <item>T-Mobile</item>
+
+    </string-array>
+
+    <string-array name="Qualification">
+        <item>Choose Qualification</item>
+        <item>SSC</item>
+        <item>HSC</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>Diploma</item>
+
+    </string-array>
+
+
+    <string-array name="Poupulation">
+        <item>Choose Poupulation</item>
+        <item>0 to 2000</item>
+        <item>2000 to 5000</item>
+        <item>5000 to 10000</item>
+        <item>10000 to 50000</item>
+        <item>50000 to 100000</item>
+        <item>100000+</item>
+
+    </string-array>
+
+    <string-array name="ShopType">
+        <item>Choose Shop Type</item>
+        <item>KIRANA SHOP</item>
+        <item>MOBILE SHOP</item>
+        <item>COPIER SHOP</item>
+        <item>INTERNATE CAFE</item>
+
+    </string-array>
+
+    <string-array name="LocationType">
+        <item>Choose LocationType</item>
+        <item>Rural</item>
+        <item>Urban</item>
+        <item>Metro</item>
+        <item>Semi Urban</item>
+    </string-array>
+
+
+    <string name="pan_tc"><![CDATA[<body><strong>Terms &amp; Conditions</strong><br>\n\n
+                               PSA shall take written approval from UTI before organizing any PAN Card camp.</br>\n
+                                <ul class=anclnk>\n
+                                    <li>\n
+                                      PSA shall not charge any extra fees/convenience charges for PAN card application.\n
+                                   </li>\n\n
+                                   <li>\n
+                                      PSA Shall not issue any hand written/self-designed/created receipt to customer.\n
+                                   </li>\n
+                                    <li>\n
+                                        Proper process has to be followed while applying PAN card. (Refer manual)\n
+                                    </li>\n
+                                    <li>\n
+                                        PSA shall not be blacklisted by any bank, government, private organizations.\n
+                                    </li>\n
+                                    <li>\n
+                                        PSA should not have any criminal record.\n
+                                    </li>\n
+                                    <li>\n
+                                        PSA Is authorized to collect PAN applications at Rs.107 (inclusive of GST)\n
+                                        You may download any one of the following app (from google store) in your Smart Phone at your own discretion.\n
+                                       Cam Scanner\n
+                                        Smart Docs Scanner\n
+                                        Convert JPG to PDF &amp; Scanner\n
+                                    </li>\n
+                                    <li>\n
+                                      To merge Two or More .PDF pages use following links\n
+                                    </li>\n
+                                  <li>\n
+                                       <a href=\'https://www.pdfmerge.com\'>https://www.pdfmerge.com</a>\n
+                                   </li>\n
+                                   <li>\n
+                                        <a href=\'https://www.pdfjoiner.com\'>http://pdfjoiner.com</a>\n\n
+                                    </li>\n
+                        <li>\n
+                            Click the photo of following customer documents, using above app and send it to your own email in .PDF format\n
+                            PAN Application form, signed by customer with his photograph\n
+                            ID proof\n
+                            Address Proof\n
+                            Date of Birth document\n
+                       </li>\n
+                       <li>\n
+                            Click photo of following documents in .JPEG/.JPG format with defined specification and send it to your email address\n
+                            Photo Scanning 300 dpi,Colour,213 X 213 px (Size:less than 30 kb)\n
+                            Signature scanning 600 dpi black and white (Size:less than 60 kb)\n
+                        </li>\n
+                        <li>\n
+                            To convert the scanned image as per above specification you may use following links or any software like photoshop etc or link as per your wish\n
+                        </li>\n
+                        <li>\n
+                            <a href=\'https://online-converting.com/image\'>https://online-converting.com/image</a>\n
+                        </li>\n
+                        <li>\n
+                        <a href=\'https://www.imgonline.com.ua/eng/resize-image.php\'>https://www.imgonline.com.ua/eng/resize-image.php</a>\n
+                       </li>\n
+                        <li>Save all of the above documents in your computer and Upload on UTIISL website</li>\n
+                    </ul></body>]]></string>
+    <string name="Cancel">ok</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="upload_multidoc_notice">Choose %1$s image Of %2$s for KYC</string>
+    <string name="slab_range_details">Slab Range Details</string>
+    <string name="microATMApproved">Status is not approved.</string>
+
+    <string name="ekyc_steps">2. After installing the application the merchant has to enter their Username &lt;b>(%1$s)&lt;/b> &amp; super merchant id &lt;b>(%2$s)&lt;/b> then click on Next.&lt;br>&lt;br>
+
+3. Then merchant needs to enter their respective Aadhar number, Active Mobile number, PAN Number, and the MPOS Serial number (optional - if the Mpos is allocated to the merchant).&lt;br>&lt;br>
+
+4. After entering the details by merchant needs to acknowledge the below undertaking by selecting the tick-box and need to click on Next.&lt;br>&lt;br>
+
+5. After clicking on Next the verification OTP will be received by the merchant on the mobile number which he/she has entered.&lt;br>&lt;br>
+
+6. Once the correct OTP is entered and validated, the merchant will have to do the biometric authentication by providing a thumb impression through the connected biometric device.&lt;br>&lt;br>
+
+7. After the biometric authentication a Success/Failure message will appear on the screen, then the merchant E-KYC verification will be completed.</string>
+    <string name="steps_for_e_kyc_verification"><u>Process for E-KYC verification</u></string>
+    <string name="view_charges">View Charges</string>
+    <string name="view_channel">View Channel</string>
+    <string name="realapi_popup_english_dthsubscription_msg">Dear Partner Currently %1$s Lapu Route is Down.
+Please enable Real API Route to Pay %2$s for Subscription instantly any time</string>
+    <string name="realapi_popup_hindi_dthsubscription_msg">प्रिय विक्रेता अभी %1$s का बिल भुगतान सदस्यता के लिए सिम रूट से बंद है| अभी बिल भुगतान करने लिए Real API Route को Activate करें|</string>
+
+    <string name="rupees">₹</string>
+    <string name="upi_text_lable">Your <font color='#2196F3'> Virtual Payment Address (VPA) </font></string>
+    <string name="amt_text_lable">Amount to be paid </string>
+    <string name="beneName_text_lable">Beneficiary Name </string>
+    <string name="note_vpa_text_lable"> VPA is a unique payment address that can be linked to a person\'s bank account to make a payment.</string>
+    <string name="str_settlement_Note"><font color="black">Note:</font> <font color="red">Bank Account Should Be With the Name of Company or Director or Proprietor, Third-party Account Will Not Be Approved for Settlement.</font></string>
+
+    <string name="verify_gauth_notice">Open Google Auth Application and enter <b>TOTP</b> to verify User Id, please enter it below.</string>
+    <string name="settlement_charges"><u>Settlement Charges</u></string>
+    <string name="plan_note"><b>Disclaimer:</b> We support most types of recharges, but please check with your operator before you proceed.</string>
+    <string name="bankBalance">Bank Balance</string>
+    <string name="term_privacy_text">You agree with our <a href="http://thebrothergroup.com/privacy.html">Privacy Policy</a> by tapping Log In button</string>
+    <string name="privacy_text" ><a href="htt://thebrothergroup.com/privacy.html">Privacy  Policy</a> &amp; </string>
+    <string name="term_txt" ><a href="http://thebrothergroup.com/t-c">Term &amp; Condition</a></string>
+    <string name="nsdl_terms_String">I have no objection in authenticating myself and fully understand that information provided by me shall be used for authenticating my identity through Aadhaar Authentication System for the purpose stated above and no other purpose.</string>
+
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+</resources>

@@ -1,0 +1,459 @@
+<aidkeys>
+    <!-- Amex 1-->
+    <key>
+        <aid>9F0607A0000000651010</aid>
+        <app_version_no>9F09020200</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039f3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 2-->
+        <aid>9F0607A0000001523010</aid>
+        <app_version_no>9F09020001</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039f3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 3-->
+        <aid>9F0606A00000002501</aid><!-- 9F06 -->
+        <app_version_no>9F09020001</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag>!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code>!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039f3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 4-->
+        <aid>9F0607A0000005241010</aid>
+        <app_version_no>9F09020064</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039f3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 5-->
+        <aid>9F0608A000000333010101</aid>
+        <app_version_no>9F09020020</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF140B9F37049F47018F01</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 6-->
+        <aid>9F0608A000000333010102</aid>
+        <app_version_no>9F09020020</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF140B9F37049F47018F019F3201</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+    <key>
+        <!-- Amex 7-->
+        <aid>9F0608A000000333010103</aid>
+        <app_version_no>9F09020020</app_version_no>
+        <terminal_floor_limit>9F1B06000000000000</terminal_floor_limit>!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105DC50FC9800</tac_default><!--DF11-->
+        <tac_online>DF1205DE00FC9800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF140B9F37049F47018F019F3201</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000001200</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit  Contactless--><!-- DF19-->
+        <cless_offline_amt>DF2006000000001500</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) Contactless--><!-- DF20-->
+        <termcvm_limit>DF2106000000001000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit Contactless--><!-- DF21-->
+
+    </key>
+	<!-- RUPay 1-->
+    <key>
+        <aid>9F0607A0000001523010</aid>
+        <app_version_no>9F09020001</app_version_no>
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit>
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105FFFFFFFFFF</tac_default>
+        <tac_online>DF1205FFFFFFFFFF</tac_online>
+        <tac_decline>DF13050010000000</tac_decline>
+        <ddol>DF14039F3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit -->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) -->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit -->
+
+    </key>
+	<!-- RUPay 2-->
+    <key>
+        <aid>9F0607A0000005241010</aid>
+        <app_version_no>9F09020064</app_version_no>
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit>
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105FFFFFFFFFF</tac_default>
+        <tac_online>DF1205FFFFFFFFFF</tac_online>
+        <tac_decline>DF13050010000000</tac_decline>
+        <ddol>DF14039F3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit -->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) -->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit -->
+
+    </key>
+	
+	<!-- RUPay 3-->
+    <key>
+        <aid>9F0607A0000000651010</aid>
+        <app_version_no>9F09020200</app_version_no>
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit>
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105FFFFFFFFFF</tac_default>
+        <tac_online>DF1205FFFFFFFFFF</tac_online>
+        <tac_decline>DF13050010000000</tac_decline>
+        <ddol>DF14039F3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit -->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) -->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit -->
+
+    </key>
+	
+	<!-- RUPay 4-->
+    <key>
+        <aid>9F0608A000000333010101</aid>
+        <app_version_no>9F09020200</app_version_no>
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit>
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105FFFFFFFFFF</tac_default>
+        <tac_online>DF1205FFFFFFFFFF</tac_online>
+        <tac_decline>DF13050010000000</tac_decline>
+        <ddol>DF14039F3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit -->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) -->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit -->
+
+    </key>
+	<!-- RUPay 5-->
+    <key>
+        <aid>9F0608A000000333010102</aid><!-- 9F06 -->
+        <app_version_no>9F09020200</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code><!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105FFFFFFFFFF</tac_default><!--DF11-->
+        <tac_online>DF1205FFFFFFFFFF</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+	<!-- RUPay 6-->
+    <key>
+        <aid>9F0608A000000333010103</aid>
+        <app_version_no>9F09020200</app_version_no>
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit>
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range-->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities>
+        <terminal_type>9F350122</terminal_type>
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities>
+        <txn_currency_code>5F2A020356</txn_currency_code>
+        <terminal_country_code>9F1A020356</terminal_country_code>
+        <app_selection_indicator>DF010100</app_selection_indicator>
+        <tac_default>DF1105FFFFFFFFFF</tac_default>
+        <tac_online>DF1205FFFFFFFFFF</tac_online>
+        <tac_decline>DF13050010000000</tac_decline>
+        <ddol>DF14039F3704</ddol>
+        <threshold>DF15025000</threshold>
+        <max_target_percent>DF160100</max_target_percent>
+        <target_percent>DF170100</target_percent>
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01-->
+        <cless_offline_limit_amt>DF1906000000100000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit -->
+        <cless_offline_amt>DF2006000000100000</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) -->
+        <termcvm_limit>DF2106000000000000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit -->
+
+    </key>
+	
+	<!-- VISA 1-->
+    <key>
+        <aid>9F0607A0000000031010</aid><!-- 9F06 -->
+        <app_version_no>9F0902008C</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code> <!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105D84000A800</tac_default><!--DF11-->
+        <tac_online>DF1205D84004F800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000000000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000099999999</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000200001</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+
+
+	<!-- VISA 2-->
+    <key>
+        <aid>9F0607A0000000032010</aid><!-- 9F06 -->
+        <app_version_no>9F0902008C</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code> <!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105D84000A800</tac_default><!--DF11-->
+        <tac_online>DF1205D84004F800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000000000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000099999999</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000200000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+	<!-- VISA 3-->
+    <key>
+        <aid>9F0607A0000000033010</aid><!-- 9F06 -->
+        <app_version_no>9F0902008C</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code> <!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105D84000A800</tac_default><!--DF11-->
+        <tac_online>DF1205D84004F800</tac_online><!--DF12-->
+        <tac_decline>DF13050010000000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000000000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000099999999</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000200000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+	<!-- MASTER CARD 1-->
+    <key>
+        <aid>9F0607A0000000041010</aid><!-- 9F06 -->
+        <app_version_no>9F09020002</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code> <!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105F45084800C</tac_default><!--DF11-->
+        <tac_online>DF1205F45084800C</tac_online><!--DF12-->
+        <tac_decline>DF13050000000000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000000000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000099999999</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000200000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+	<!-- MASTER CARD 2-->
+    <key>
+        <aid>9F0607A0000000043060</aid><!-- 9F06 -->
+        <app_version_no>9F09020002</app_version_no><!-- 9F09 -->
+        <terminal_floor_limit>9F1B0400000000</terminal_floor_limit><!-- 9F1B-->
+        <unknown_tag>9F7B06000000000000</unknown_tag><!--payment system range 9F7B -->
+        <terminal_capabilities>9F3303E0F8C8</terminal_capabilities><!-- 9F33 -->
+        <terminal_type>9F350122</terminal_type><!--9F35 -->
+        <add_terminal_capabilities>9F40057000B0A001</add_terminal_capabilities><!-- 9F40-->
+        <txn_currency_code>5F2A020356</txn_currency_code><!-- 5F2A -->
+        <terminal_country_code>9F1A020356</terminal_country_code> <!--9F1A-->
+        <app_selection_indicator>DF010100</app_selection_indicator><!--DF01-->
+        <tac_default>DF1105F45004800C</tac_default><!--DF11-->
+        <tac_online>DF1205F45004800C</tac_online><!--DF12-->
+        <tac_decline>DF13050000800000</tac_decline><!--DF13-->
+        <ddol>DF14039F3704</ddol><!--DF14-->
+        <threshold>DF15025000</threshold><!-- DF15-->
+        <max_target_percent>DF160100</max_target_percent><!-- DF16-->
+        <target_percent>DF170100</target_percent><!-- DF17-->
+        <support_online_pin>DF180101</support_online_pin> <!-- whether to support online PIN, 1-yes, 0-no:01--><!-- DF18-->
+        <cless_offline_limit_amt>DF1906000000000000</cless_offline_limit_amt> <!--clessofflinelimitamt Reader Contactless Floor Limit --><!-- DF19-->
+        <cless_offline_amt>DF2006000099999999</cless_offline_amt> <!--clessofflineamt Reader Contactless Transaction Limit (RCTL) --><!-- DF20-->
+        <termcvm_limit>DF2106000000200000</termcvm_limit> <!--termcvm_limit Reader CVM Required Limit --><!-- DF21-->
+
+    </key>
+       
+</aidkeys>
+

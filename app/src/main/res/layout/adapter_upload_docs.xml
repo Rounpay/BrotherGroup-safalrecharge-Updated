@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/icon_color"
+    android:paddingBottom="@dimen/_1sdp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_weight="3.5"
+        android:background="@color/white"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_8sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/docInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            app:srcCompat="@drawable/ic_info_small" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/docTv"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="PAN"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_weight="3.5"
+        android:background="@color/white"
+        android:gravity="center|right"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_8sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/uploadInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            app:srcCompat="@drawable/ic_info_small" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/uploadDoc"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_toLeftOf="@+id/panUploadInfo"
+            android:background="@drawable/rounded_focused"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:minWidth="@dimen/_60sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Upload"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/docStatusTv"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_3sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingRight="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:text="Status" />
+</LinearLayout>

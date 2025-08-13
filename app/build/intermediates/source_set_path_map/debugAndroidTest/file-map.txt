@@ -1,0 +1,4 @@
+com.solution.brothergroup.test.app-androidTest-0 D:\Ashif Kadri\S Recharge Projects\BrotherGroup (safalrecharge Updated)\app\build\generated\res\resValues\androidTest\debug
+com.solution.brothergroup.test.app-mergeDebugAndroidTestResources-1 D:\Ashif Kadri\S Recharge Projects\BrotherGroup (safalrecharge Updated)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.solution.brothergroup.test.app-mergeDebugAndroidTestResources-2 D:\Ashif Kadri\S Recharge Projects\BrotherGroup (safalrecharge Updated)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.solution.brothergroup.test.app-merged_res-3 D:\Ashif Kadri\S Recharge Projects\BrotherGroup (safalrecharge Updated)\app\build\intermediates\merged_res\debugAndroidTest

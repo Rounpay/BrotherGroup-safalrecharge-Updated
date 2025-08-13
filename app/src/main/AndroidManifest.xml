@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <queries>
+        <!-- Explicit apps you know in advance about: -->
+
+        <package android:name="org.egram.microatm" />
+        <package android:name="com.mantra.rdservice" />
+        <package android:name="com.scl.rdservice" />
+        <package android:name="com.tatvik.bio.tmf20" />
+        <package android:name="com.acpl.registersdk" />
+        <package android:name="com.precision.pb510.rdservice" />
+        <package android:name="com.secugen.rdservice" />
+        <package android:name="com.nextbiometrics.onetouchrdservice" />
+
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+        <package android:name="in.org.npci.upiapp" />
+        <package android:name="net.one97.paytm" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.csam.icici.bank.imobile" />
+        <package android:name="com.sbi.upi" />
+        <package android:name="com.upi.axispay" />
+        <package android:name="com.samsung.android.spaymini" />
+        <package android:name="com.samsung.android.spay" />
+        <package android:name="com.snapwork.hdfc" />
+        <package android:name="com.fss.pnbpsp" />
+        <package android:name="com.icicibank.pockets" />
+        <package android:name="com.bankofbaroda.upi" />
+        <package android:name="com.freecharge.android" />
+        <package android:name="com.fss.unbipsp" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.mipay.wallet.in" />
+        <package android:name="in.amazon.mShop.android.shopping" />
+        <package android:name="com.axis.mobile" />
+        <package android:name="com.mycompany.kvb" />
+        <package android:name="com.fss.vijayapsp" />
+        <package android:name="com.dena.upi.gui" />
+        <package android:name="com.fss.jnkpsp" />
+        <package android:name="com.olive.kotak.upi" />
+        <package android:name="com.enstage.wibmo.hdfc" />
+        <package android:name="com.bsb.hike" />
+        <package android:name="com.fss.idfcpsp" />
+        <package android:name="com.YesBank" />
+        <package android:name="com.abipbl.upi" />
+        <package android:name="com.microsoft.mobile.polymer" />
+        <package android:name="com.finopaytech.bpayfino" />
+        <package android:name="com.mgs.obcbank" />
+        <package android:name="com.upi.federalbank.org.lotza" />
+        <package android:name="com.mgs.induspsp" />
+        <package android:name="ai.wizely.android" />
+        <package android:name="com.olive.dcb.upi" />
+        <package android:name="com.mgs.yesmerchantnative.prod" />
+        <package android:name="com.dbs.in.digitalbank" />
+        <package android:name="com.mobikwik_new" />
+        <package android:name="com.rblbank.mobank" />
+        <package android:name="in.chillr" />
+        <package android:name="com.citrus.citruspay" />
+        <package android:name="com.SIBMobile" />
+        <package android:name="com.truecaller" />
+        <package android:name="com.olacabs.customer" />
+        <package android:name="com.myairtelapp" />
+        <package android:name="com.paytmmall" />
+        <package android:name="com.gbwhatsapp" />
+        <package android:name="com.msf.angelmobile" />
+        <package android:name="com.fundsindia" />
+        <package android:name="com.muthootfinance.imuthoot" />
+        <package android:name="com.angelbroking.angelwealth" />
+    </queries>
+    <uses-sdk tools:overrideLibrary="org.egram.aepslib" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:remove="android:maxSdkVersion" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-feature android:name="android.hardware.location.gps" />
+
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="false"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="HardcodedDebugMode,android:theme"
+        tools:replace="android:icon,allowBackup">
+
+        <activity
+            android:name="com.solution.brothergroup.Fragments.TermAndCondition"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Authentication.PrivacyPolicy"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.NSDL.NSDLActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.CMS.Activity.CmsReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.UpgradePacakge.ui.UpgradePackage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.MoveToWallet.ui.MoveToWalletNew"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Util.RechargeStatusActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.MoveToBankReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.SettlementBankListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.UpdateAddSettlementBankActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AddMoney.AddMoneyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.AccountOpenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.QRScan.Activity.QRScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.QRScan.Activity.QRPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.QRScan.Activity.UPIPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.solution.brothergroup.DMTWithPipe.ui.DMRLoginNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.DMTWithPipe.ui.AddBeneficiaryNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <activity
+            android:name="com.solution.brothergroup.DMTWithPipe.ui.BeneficiaryListScreenNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.DMTWithPipe.ui.DMRRecieptNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.DMTWithPipe.ui.MoneyTransferNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.RechargeHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.RechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.BillFetchInfoScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.RechargeProviderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.SecondRechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.Fragments.Adapter.UpgradePackage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.FingPayAEPSDashBoardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.AEPSBankListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name="com.solution.brothergroup.Aeps.UI.AEPSMiniStatementRPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.Aeps.UI.AEPSStatusRPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.Aeps.UI.AepsCashWithDrawlActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.Aeps.UI.MiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.AEPSDepositStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.AEPSStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.MicroAtm.Activity.MiniAtmRecriptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.MicroAtm.Activity.MicroATMStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.MicroAtm.Activity.MicroAtmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.EKYCProcessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.FingPayAEPS.AEPSMiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.SpecificRechargeReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.UPIPayment.UI.UPIQRCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.MultiImageUploadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.solution.brothergroup.UPIPayment.UI.QrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.UPIPayment.UI.QrBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.PSA.UI.PurchaseToken"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.PSA.UI.PanApplicationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.PSA.UI.UTILogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.AchievedTargetActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.solution.brothergroup.DTH.Activity.DthPackageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.DTH.Activity.DthSubscriptionStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.DTH.Activity.DthChannelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DTH.Activity.DTHSubscriptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DTH.Activity.DthSubscriptionReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- <activity
+             android:name="com.solution.s.recharge.Activities.QrBankActivity"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+             android:screenOrientation="portrait"
+             android:theme="@style/Appnew" />-->
+        <!--activity
+            android:name="com.solution.s.recharge.Activities.QrCodeActivity"
+            android:screenOrientation="portrait" />-->
+
+        <activity
+            android:name="com.solution.brothergroup.Aeps.UI.AEPSReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.QrBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.QrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.solution.brothergroup.Authentication.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.MoveToWallet.ui.MoveToWallet"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.BankDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.DthSupportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Notification.NotificationListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.UserDayBookActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.AppUserListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FosCollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.VoucherEntryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FosCollectionBankListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.VoucherEntryUserListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FosReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.AccountStatementReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.AccountStatementServiceWiseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FOSAccStmtAndCollActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FosAreaReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.FosUserListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.AppUser.Activity.ChannelReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.UpdateProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.UpdateBankActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.CreateUserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.DMRNEW.ui.DMRLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.FundOrderPendingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <activity
+            android:name="com.solution.brothergroup.Notification.NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.RECHARGEANDBBPS.UI.SlipActivityRechargeReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.solution.brothergroup.Splash.Splash"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.solution.brothergroup.Authentication.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"/>
+        <activity
+            android:name="com.solution.brothergroup.SignUp.SignUp"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.SelectZoneOption"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.solution.brothergroup.DMRNEW.ui.DMRReciept"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+
+
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.MiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name="com.solution.brothergroup.Notification.service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.solution.brothergroup.Activities.FundRecReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.DisputeReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DMRNEW.ui.BeneficiaryListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.DMRNEW.ui.MoneyTransfer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.DMRNEW.ui.AddBeneficiary"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.BankListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.DMRReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.UserDayBook.ui.UserDayBookScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.CommissionSlab.ui.CommissionScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.LedgerReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.PaymentRequest"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.FundReqReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.Activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Util.Viewbill"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.ROffer.UI.ROfferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.brothergroup.BrowsePlan.ui.BrowsePlanScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DthCustomerInfo.ui.DthConsumerInfoScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DthPlan.UI.DthPlanInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DthPlan.UI.DthPlanInfoNewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.DthPlan.UI.DthPlanChannelListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.W2RRequest.report.W2RHistory"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.PaymentTransactionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.RKIProcessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.SignatureCaptureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.PaymentDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.PaymentDetailsSlipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.TransactionDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.SendSMSEmailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.TransactionStatusActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.PaynearActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.PaynearActivationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.EmiPaymentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.brothergroup.Paynear.Activity.EmipaymentwithCodeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service
+            android:name="com.anfu.pos.library.bluetooth4.BluetoothLeService"
+            android:enabled="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.smart-image-picker-provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,181 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'srecharge'
+            keyPassword 'srechargepass'
+            // storeFile file('F:/Vishnu Roundpay Project/JKS/S Recharge/srecharge.jks')
+            storePassword 'srechargepass'
+        }
+    }
+
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.solution.brothergroup"
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        signingConfig signingConfigs.config
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        archivesBaseName="BrotherGroup "+versionName
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/DEPENDENCIES', 'META-INF/ASL2.0', 'org/apache/http/version.properties', 'org/apache/http/client/version.properties', 'res/raw/sdk.properties']
+        }
+    }
+
+    /* configurations {
+        all*.exclude group: 'com.google.code.gson'
+    }*/
+
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "KEY", '"0eed73feb2045049a47ff5820c9c8718"'
+        }
+        release {
+            /* shrinkResources true*/
+            minifyEnabled false
+            buildConfigField "String", "KEY", '"0eed73feb2045049a47ff5820c9c8718"'
+            // useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.solution.brothergroup'
+}
+
+repositories {
+    mavenCentral()
+
+    maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases/' }
+
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs\\morefun_mpos_sdk_v2.1.20210628.jar')
+
+
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation 'com.google.android.material:material:1.10.0'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+//    implementation("com.google.firebase:firebase-analytics:21.5.0")
+    implementation 'com.google.firebase:firebase-crashlytics:18.5.1'
+
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    implementation 'org.greenrobot:eventbus:3.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+    implementation 'org.jsoup:jsoup:1.14.3'
+
+//    implementation 'org.apache.httpcomponents:httpcore:4.4.15'
+//    implementation 'org.apache.httpcomponents:httpmime:4.5.13'
+
+
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit-adapters:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.5'
+
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.1'
+
+
+    /* ----------------payment gat way for Paytm-------------*/
+
+    /*implementation('com.paytm:pgplussdk:1.3.3') {
+        transitive = true;
+    }*/
+
+    implementation('com.paytm.appinvokesdk:appinvokesdk:1.6.7') {
+        exclude group: "com.squareup.okhttp3", module: 'okhttp3'
+        /*exclude group: 'com.squareup.okio', module: 'okio'*/
+    }
+
+    implementation 'com.cashfree.pg:android-sdk:1.7.28'
+    //Aggre pay
+    implementation(name: 'pgsdkv5ax', ext: 'aar')
+
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation project(':library')
+
+
+    implementation project(path: ':cropper')
+    
+
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.70'
+    implementation 'com.google.code.ksoap2-android:ksoap2-android:3.6.2'
+    implementation 'org.apache.commons:commons-io:1.3.2'
+    implementation 'com.github.drawers:SpinnerDatePicker:1.0.6'
+
+    /*--------------------------Round Pay SDK -------------------------*/
+    implementation(name: 'roundpay_emoney_lib_1', ext: 'aar')
+    implementation(name: 'roundpay_emoney_lib_2', ext: 'aar')
+    implementation(name: 'roundpay_emoney_lib_3', ext: 'aar')
+    implementation(name: 'mosambeelib_v_1.1.0.0007.08', ext: 'aar')
+
+    implementation files('libs/roundpay_shopping.aar')
+    implementation files('libs/onboardinglib_V.1.1.12.aar')
+
+    implementation 'io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:2.1.0'
+
+    /* ----------------payment gat way for Razor Pay-------------*/
+    implementation 'com.razorpay:checkout:1.6.18'
+
+
+    //MPOS Sdk
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.2'
+    implementation group: 'de.mindpipe.android', name: 'android-logging-log4j', version: '1.0.3'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+    implementation group: 'org.codehaus.jackson', name: 'jackson-core-asl', version: '1.9.13'
+    implementation group: 'commons-io', name: 'commons-io', version: '20030203.000550'
+    implementation group: 'commons-lang', name: 'commons-lang', version: '20030203.000129'
+    implementation group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+    implementation(name: 'mPaySdk_release_2.0.8_23102019', ext: 'aar')
+
+
+    implementation group: 'com.google.zxing', name: 'core', version: '3.4.1'
+    //CMS
+    implementation(name: 'fingpay_ubercms', ext: 'aar')
+}
+apply plugin: 'com.google.gms.google-services'

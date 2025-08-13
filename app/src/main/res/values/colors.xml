@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#950C0C</color>
+    <color name="colorPrimary">#443E3E </color>
+    <color name="colorPrimaryDark">#950C0C</color>
+    <color name="colorAccent">#333333</color>
+    <color name="style_color_primary">#D55721</color>
+    <color name="style_color_primary_dark">#414648</color>
+    <color name="style_color_accent">#1C4178</color>
+    <!-- <color name="fab_color_pressed">#0eb795</color>
+     <color name="fab_color_shadow">#44000000</color>
+
+     <color name="text_like_counter">#0eb795</color>-->
+    <color name="disable_light_color">#4D555353</color>
+    <color name="yellow">#ffff00</color>
+    <color name="yellow_dark">#ffd700</color>
+    <color name="bottommenu">#7e7e7e</color>
+    <color name="off_white">#4DE4D6D6</color>
+    <color name="buttoncolor">#26972B</color>
+    <color name="button_color">#059445</color>
+    <color name="colorBackground">#A9A9A9</color>
+    <color name="devider_color_alpha">#9CDAC9C9</color>
+    <color name="icon_color">#c9c6c3</color>
+    <color name="textcolor">#2B7BA8</color>
+    <color name="devider_color">#cebcbc</color>
+    <color name="hint_color">#84000000</color>
+    <color name="pressed">#9E570F</color>
+    <!--main colour-->
+    <color name="back_bg">#e1dede</color>
+    <color name="back_bgg">#fafafa</color>
+    <color name="transparent">#88a98c8c</color>
+    <color name="aboutpagecolour">#DDDDFA</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#665f5f</color>
+    <color name="greycon">#383636</color>
+    <color name="light_grey">#a19f9f</color>
+    <color name="lightDarkGreen">#12B319</color>
+
+    <color name="lightGrey">#e1e1e1</color>
+
+    <color name="colorlink">#0645AD</color>
+    <color name="reddishBrown">#B93221</color>
+    <color name="red">#C21057</color>
+    <color name="green">#2b912d</color>
+    <color name="gre">#2a692d</color>
+
+    <color name="transparent_cardview">#00000000</color>
+
+    <!--swipelist.. color-->
+
+    <color name="color_primary_dark">#d32f2f</color>
+    <color name="color_accent">#f44336</color>
+
+    <color name="color_delete">#ff5722</color>
+    <color name="color_mark">#1B6EA5</color>
+
+    <!-- Randomized colors -->
+    <color name="color_red">#DB1D0F</color>
+    <color name="color_deep_purple">#581CC2</color>
+    <color name="color_indigo">#2A46DF</color>
+    <color name="color_blue">#2090C4</color>
+    <color name="color_light_blue">#03a9f4</color>
+    <color name="color_cyan">#00bcd4</color>
+    <color name="color_teal">#009688</color>
+    <color name="color_green">#4caf50</color>
+    <color name="color_light_green">#8bc34a</color>
+    <color name="color_lime">#cddc39</color>
+    <color name="color_yellow">#EED604</color>
+    <color name="color_amber">#ffc107</color>
+    <color name="color_orange">#FA5803</color>
+    <color name="color_deep_orange">#ff5722</color>
+    <color name="color_brown">#795548</color>
+    <color name="color_grey">#9e9e9e</color>
+    <color name="color_blue_grey">#607d8b</color>
+    //new Design
+    <color name="color_login_background">#e5e5e5</color>
+    <color name="dark_pink">#E41155</color>
+    <color name="dark_blue">#6A00FF</color>
+    <color name="blue">#C16A00FF</color>
+    <color name="darkGreen">#055708</color>
+    <color name="light_green">#43af75</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="transparent_black"> #66000000</color>
+    <color name="divider_color">#D6C6BA</color>
+</resources>

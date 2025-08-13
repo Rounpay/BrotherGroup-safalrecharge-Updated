@@ -1,0 +1,2294 @@
+[
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_support.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_balance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_balance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_indian_money.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\indian_money.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_bank.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rnd_logo_mini.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rnd_logo_mini.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_mini_atm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_mini_atm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_camera_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_camera_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_kyc.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\kyc.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_svg_nsdl_img.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\svg_nsdl_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_recharge_report_print_popup.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\recharge_report_print_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_unfocused.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_unfocused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_circle_filled_org.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\circle_filled_org.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_cash_withdrawl_activity.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_cash_withdrawl_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_pan.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\pan.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_flash_on_white_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_flash_on_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\menu_browseplan_menu.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\menu\\browseplan_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_transaction_details.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_transaction_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_upi_pay.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_upi_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_circle_primary_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\circle_primary_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_telephone.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_telephone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_printer.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\printer.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_pager_item.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\pager_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_car_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_car_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_app_user_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_app_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_hospital.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_dth_sr.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_dth_sr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_education_fee.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_education_fee.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_bank_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_bank_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_online_shopping.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_online_shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_package.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_fosaccledger_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_fosaccledger_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_musica_searcher.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_musica_searcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_uti.jpg.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\uti.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_channel_name.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_channel_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_activation.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_activation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_bulb.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_bulb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_order_receipt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_order_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_select_dialog_item.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\select_dialog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_add_beneficiary.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_add_beneficiary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_account_open.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_account_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_baseline_report_24.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_baseline_report_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\menu_menu_filter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\menu\\menu_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rect_bal_dis.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rect_bal_dis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_slab_range_detail.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_slab_range_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_check.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_referral.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_referral.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_spinner_model.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\spinner_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_successsvg.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_successsvg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_second_recharge.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_second_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_done_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_done_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_radio_group_bg_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\radio_group_bg_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_sign_up.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fund_dc_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fund_dc_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_package.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_custom_dialog_skv.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\custom_dialog_skv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_services_adpater.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\services_adpater.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_fastag.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_fastag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_fos_channel_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_fos_channel_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_accent.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_consumer_info_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\consumer_info_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_apps_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_apps_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pin_password.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pin_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_gas_pipe.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_gas_pipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_filter_fill.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_filter_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_notification.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rect_white_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rect_white_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_commission_slab22.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_commission_slab22.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_round_balance_button_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\round_balance_button_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_select_image_type.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_select_image_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_deposit_status.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_deposit_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_fund_order_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_fund_order_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_settlement_charge_detail.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_settlement_charge_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_aeps_finger_print_ekyc_dialog.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_aeps_finger_print_ekyc_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_satellite_dish.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_satellite_dish.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_prepaid_color.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_prepaid_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_utilogin.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_utilogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_reportdthsub.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_reportdthsub.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_dialog_back.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\dialog_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_plan_language.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_plan_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_user_day_book_summary.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\user_day_book_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_debit_card.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_debit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_btn_upi_enabled_disabled.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\btn_upi_enabled_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_email_outline.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_email_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_flash_off_white_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_flash_off_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_recharge_status.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_recharge_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_corner_rec.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\corner_rec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_whatsapp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_whatsapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_municiple_tax.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_municiple_tax.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_enable_realapi.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_enable_realapi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_qr_upi.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\qr_upi.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_text_messages.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_text_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_reject4.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\reject4.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_verifyotp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\verifyotp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_purple_circle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\purple_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_pin_verification.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\pin_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_broadband.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_broadband.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_satellite_dish_grey.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_satellite_dish_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_document_info.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\document_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_create_user.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_ekyc_process.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_ekyc_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_bhim_upi.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\bhim_upi.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_customer_support.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_customer_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_rp_status.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_rp_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_recharge_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_recharge_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_refund_otp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\refund_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_purchase_token.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_purchase_token.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_cancel_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_cancel_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_deposit_otp_verify.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_deposit_otp_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_emi_paymet_with_code.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_emi_paymet_with_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_fund_req.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_fund_req.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_add_money_type_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\add_money_type_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_beneficiary_delete_confirm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_beneficiary_delete_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_move_to_bank.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_move_to_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_slide_curve.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\slide_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_radio_button_unchecked_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\radio_button_unchecked_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_failed.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\failed.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_upi_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_upi_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_focused.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fos_bank_list_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fos_bank_list_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_phone_call.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_phone_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_dumble.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\dumble.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_b_b_p_s_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_b_b_p_s_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_black_circle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_black_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fund_order_pending_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fund_order_pending_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_incentive.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_incentive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_aadhar_logo.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\aadhar_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dmrreceipt_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dmrreceipt_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_refresh_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_refresh_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_upi_webview.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_upi_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_status_refund.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_status_refund.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_qrscan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_qrscan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_dth_subscription_confiorm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_dth_subscription_confiorm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_toggle_on.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_toggle_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_create_user.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_address_white.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_address_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_arrow_drop_down.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_account_open_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_account_open_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_municiple_taxes.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_municiple_taxes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_logout_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_logout_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_add_money_rectangle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\add_money_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_file.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_exchnage_fund_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_exchnage_fund_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_green.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_red_circle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\red_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fos_area_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fos_area_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_account_statement_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_account_statement_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_item_list_popup.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\item_list_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_general_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_general_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_underscreaning7.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\underscreaning7.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_app_user.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_app_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dmr_report_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dmr_report_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_notifications_white_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_notifications_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_account_balance_wallet_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_account_balance_wallet_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_update_bank.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_update_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_statement_collection.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_statement_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_light_green_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_light_green_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_red.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_cust_info.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_cust_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_logout_cl.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_logout_cl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_atm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_atm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_aeps_report_bubble_svg.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_aeps_report_bubble_svg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_cms_receipt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_cms_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_recharge_plan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_recharge_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_payment_upi.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_payment_upi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_app_install.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_app_install.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_q_r_code.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_q_r_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_black.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_arrow_back_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_arrow_back_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_move_to_wallet_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_move_to_wallet_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_bbps_info_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_bbps_info_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_sd_box.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_sd_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_toolbar_second.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\toolbar_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_notification_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_notification_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_indo_nepal_dmt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_indo_nepal_dmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_box.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_plan_validity_single.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_plan_validity_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_beneficiary_list_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\beneficiary_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dispute_report_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dispute_report_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_incomplete5.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\incomplete5.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_curved_style_for_layout.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\curved_style_for_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_recharge.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_payment_details.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_payment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_micro_atm_slip.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_micro_atm_slip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_number.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_statistics.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_send_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_send_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_white_for_logo.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_white_for_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_signature_capture.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_signature_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_mini_atm_response.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_mini_atm_response.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_image_black.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_image_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_background_splash.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\background_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_rupee_indian.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_rupee_indian.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_toggle_off.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_toggle_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_kyc.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_kyc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_channel_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_channel_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_nsdl.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\nsdl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_map.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_update_utr.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_update_utr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_app_user_balance_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\app_user_balance_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_cabale_tv.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_cabale_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_confirm_dialog.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\confirm_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_left_arrow.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_cell_gradient_blue.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\cell_gradient_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_select_provider_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\select_provider_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_user_password.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_user_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_pan_recipt_dialog.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\pan_recipt_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_mini_statement.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_mini_statement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_light_red_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_light_red_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_receipt_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_receipt_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_layout_background.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\layout_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_beneficiary_list_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_beneficiary_list_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_subscription_status.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_subscription_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_recent_recharge_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\recent_recharge_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_utility_my_account.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_utility_my_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dth_tollfree.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dth_tollfree.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\menu_menu_share.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\menu\\menu_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_white_circle.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\white_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_channel_area_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_channel_area_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_slip.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_slip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_roll.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_roll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_channel.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_channel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_regd.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_regd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_commission_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_commission_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_w2r_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_w2r_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_date.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_upload_docs.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_upload_docs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_eaadharcard.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_eaadharcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_wallet_type_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\wallet_type_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_circle_logo.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\circle_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_specific_recharge_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_specific_recharge_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_plan_option_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\plan_option_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_solid_aeps_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_solid_aeps_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_custom_spinner.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\custom_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_tower.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_tower.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_support.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_recharge_plan_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_recharge_plan_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_recharge_dateselection.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\recharge_dateselection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_list_screen.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_list_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_wrong_right.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_wrong_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_slab_range_details.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_slab_range_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_plan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_info_small.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_info_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_servicedown8.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\servicedown8.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_fos_channel_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_fos_channel_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_btn_shape.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\btn_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_select_gateway.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_select_gateway.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_add_wallet.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_add_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dmr_report_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dmr_report_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_water.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_water.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pending.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_commission_slab.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_commission_slab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_mini_statement.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_mini_statement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_house.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_house.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_gas.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_gas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_download.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\download.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_auto_billing.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_auto_billing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_printer_tool.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_printer_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_search_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_search_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fund_order_pending.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fund_order_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_fund_receive.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_fund_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_statement_channel.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_statement_channel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rect_header.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rect_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_bharat_billpay.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\bharat_billpay.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_drop_down_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_drop_down_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_settings_ab.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_settings_ab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_primary_border_fill.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_primary_border_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dmrlogin.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dmrlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_wallet_list_popup.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\wallet_list_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_xpress_dmt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_xpress_dmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_plan_all.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_plan_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_support.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_customer_service.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_customer_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_download_arrow.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_download_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_pan_application.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_pan_application.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_indian_rupee.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\indian_rupee.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fing_pay_aeps_dash_board.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fing_pay_aeps_dash_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_gender.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_gender.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_subscription.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_user_daybook.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_user_daybook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_life_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_life_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_bill_detail.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_bill_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_achieved_target.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_achieved_target.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_nsdl.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_nsdl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_twitter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_twitter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_channel_area_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_channel_area_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_incentive_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\incentive_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fos_user_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fos_user_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_light_green.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_light_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_nsdl.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_nsdl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_userdaybook_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\userdaybook_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_dark_grey.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_dark_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_mobile_tollfree.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\mobile_tollfree.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_spinner_item_divider.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\spinner_item_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_image_dialog_layout.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\image_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_image_multi_black.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_image_multi_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_notification.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_plan_channel_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_plan_channel_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_white_logo.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\white_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_payment_details_slip.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_payment_details_slip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_bank_list_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\bank_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_aditional_info.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_aditional_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_local_post_office_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_local_post_office_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_fund_transfer.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_fund_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_report_pending.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_report_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_aeps_withdrawl.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_aeps_withdrawl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rnd_logo_new.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rnd_logo_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_support_data.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_support_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_call_request.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_call_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rac_back.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rac_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_viewbill.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\viewbill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_round_button_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\round_button_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_dispute.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_dispute.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_insurance_lead.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_insurance_lead.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_day_book_dmt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_day_book_dmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_bank_detail.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_bank_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fos_user_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fos_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_radio_button_selector.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\radio_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_emipayment.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_emipayment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_upload_docs.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_upload_docs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rnd_logo.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rnd_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_hd_box.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_hd_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_user_day_book.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_user_day_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_plan_info.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_plan_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_deliverd.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_deliverd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_rupees_graph.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_rupees_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dashboard_option_grid.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dashboard_option_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_custom_radio.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\custom_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_team.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_payment_request.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_payment_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_check_mark.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_check_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_aeps.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_aeps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_post_mobile.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_post_mobile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_qr_bank.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_qr_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\font_normal.otf.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\font\\normal.otf"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_recharge_plan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_recharge_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pending_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pending_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_rupees_graph_green.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_rupees_graph_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_change_password.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\font_regular.ttf.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\font\\regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_perm_device_information_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_perm_device_information_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_check_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_tv.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_qr_bank_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_qr_bank_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_sms_email.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_sms_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_dth_plan_info_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_dth_plan_info_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_satellite_dish_color.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_satellite_dish_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_upgrade_package_adpater.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\upgrade_package_adpater.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_fund_request.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_fund_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_qr_pay.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_qr_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_housing_society.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_housing_society.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fund_debit_credit_filter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fund_debit_credit_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_note.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\note.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_scan_pay.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_scan_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_back_splash.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\back_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_settlement_charge_details.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_settlement_charge_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_smartphone.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_smartphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_edittext_bg.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\edittext_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_mini_atm_recript.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_mini_atm_recript.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rect.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_upgrade_package.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_upgrade_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_landline.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_landline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fund_rq_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fund_rq_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_loan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_bill_payment.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_bill_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_verifytotp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\verifytotp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_calendar_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_calendar_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_round_primary.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\round_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_radio_button_checked_style.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\radio_button_checked_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_voucher_entry.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_voucher_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\anim_slide_out_bottom_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\anim\\slide_out_bottom_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_bike_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_bike_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_account_statement_service_wise.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_account_statement_service_wise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\anim_slide_in_bottom_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\anim\\slide_in_bottom_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dmr_reciept.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dmr_reciept.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_account_statement_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_account_statement_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_drop_down.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_drop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_smart_lock.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_smart_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_recharge_provider.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_recharge_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_call_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_support.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_plan_channel.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_plan_channel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_transaction_status.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_transaction_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fos_acc_smt_and_coll.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fos_acc_smt_and_coll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_mini_statement_rp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_mini_statement_rp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_fragment_app_user_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\fragment_app_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_rupees_graph_red.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_rupees_graph_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_cross_mark_outline.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_cross_mark_outline.xml"
+    },
+    {
+        "merged": "com.solution.brothergroup.app-merged_res-65:/layout_adapter_dashboard_option_grid.xml.flat",
+        "source": "com.solution.brothergroup.app-main-67:/layout/adapter_dashboard_option_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_aeps_report_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\aeps_report_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_primary.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_commision.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_commision.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_share_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_recharge_confiorm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_recharge_confiorm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_micro_atm.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_micro_atm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_dth_subscription.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_dth_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_browse_plan_layout.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\browse_plan_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_plan_new.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_plan_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_outlet.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_outlet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_close_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_close_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_upgrade_package_dialog.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\upgrade_package_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_fos_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_fos_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_red_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\red_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_postpaid.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_postpaid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_border_accent.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_border_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_cell_gradient.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\cell_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_utility_rupee_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_utility_rupee_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_specific_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_specific_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_item_sticky_header.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\item_sticky_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dashboard_option.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dashboard_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_currency_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_currency_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_operator_default_icon.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_operator_default_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_mini_statement_rp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_mini_statement_rp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_address.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_progress_bar.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\progress_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\font_medium.ttf.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\font\\medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_commission_role.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_commission_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_connection_lost_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_connection_lost_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pincode.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pincode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_creadi_card_loan.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_creadi_card_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_daybook_dmt.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_daybook_dmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_paynear_transaction.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_paynear_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_upgrade.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_upgrade.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_unauthorized6.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\unauthorized6.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rect_fill.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rect_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_prepaid.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_prepaid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_voucher.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_voucher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_image_white_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_image_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_view_credential.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_view_credential.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_nodata.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\nodata.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_account_verification.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_account_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_offer_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\offer_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_process.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_btn_enable_disable.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\btn_enable_disable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_cable_tv.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_cable_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_search_white_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_search_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_download_app_google_play.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_download_app_google_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_dark_grey_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_dark_grey_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_custom_spinner_move_to_wallet.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\custom_spinner_move_to_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_api.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_qr_code.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_multi_user.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_multi_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_progess_effect.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\progess_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_check_mark_outline.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_check_mark_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dispute_popup.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dispute_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_recharge_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_recharge_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_password_verification.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\password_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_rupee_note.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_rupee_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_aeps_mini_statement.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_aeps_mini_statement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_voucher_entry_user_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_voucher_entry_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_accent_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_accent_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_movetobank_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_movetobank_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_bank_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_bank_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_dmt_transaction.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_dmt_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_plan_option_layout.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\plan_option_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_ledger_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_ledger_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\menu_menu_search.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_inner_btn_enable_disable.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\inner_btn_enable_disable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_fund_dc.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_fund_dc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_padlock.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_padlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_gradient_round.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\gradient_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_uncheck.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\uncheck.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_ledger_report_adapter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\ledger_report_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_dth_subscription_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_dth_subscription_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_grey_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_grey_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_plan_validity.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_plan_validity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_remaining.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\remaining.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_grey_fill_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\grey_fill_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_paynear_emi_options.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_paynear_emi_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_address_location.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_address_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_primary_border.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_primary_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_receipt_details.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_receipt_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_account_open.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_account_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_loan_service.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_loan_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_movetobank_report.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_movetobank_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_accent_border_fill.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_accent_border_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_multi_image_upload.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_multi_image_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_pending_outline.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_pending_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_defaultlogo.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\defaultlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_dth_subs_report.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\dth_subs_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_distributor_collection_from_fos.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_distributor_collection_from_fos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_area_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_area_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_settlement_bank_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_settlement_bank_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_cross_mark.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_cross_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_bharat_billpay_assured.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\bharat_billpay_assured.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_qr_code.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_settlement_account.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_settlement_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_email_verify_social_link_update.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_email_verify_social_link_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_bank_color.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_bank_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_move_to_wallet.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_move_to_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_add_money.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_add_money.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_privacypolicy.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\privacypolicy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_money_transfer.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_money_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_loader.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\loader.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_rounded_light_red.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\rounded_light_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_dialog_service_list.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\dialog_service_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_lock_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_success.png.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\success.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_instagram.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_upi.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_upi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_user_daybook_black_24dp.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_user_daybook_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_achieved_target.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_achieved_target.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_domain.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_domain.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_id_card.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_id_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_ic_health_insurance.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\ic_health_insurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_activity_update_add_settlement_bank.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\activity_update_add_settlement_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\drawable_circle_gray.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\drawable\\circle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_forgotpass.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\forgotpass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_adapter_day_book.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\adapter_day_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-merged_res-65:\\layout_ledger_filter.xml.flat",
+        "source": "C:\\Users\\Ashif Roundpay\\.gradle\\daemon\\8.4\\com.solution.brothergroup.app-main-67:\\layout\\ledger_filter.xml"
+    }
+]

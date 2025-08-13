@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:focusableInTouchMode="true"
+    app:cardCornerRadius="@dimen/_8sdp">-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/closeIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            app:srcCompat="@drawable/ic_close_black_24dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTv"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Auto Billing Setting"
+            android:textColor="@android:color/black" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/amountAutoBillingTv"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTv"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Max Daily Count (0 is Unlimited) " />
+
+        <RelativeLayout
+            android:id="@+id/amountAutoBillingView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountAutoBillingTv">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/amountAutoBillingEt"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="sans-serif-medium"
+                android:hint="0 Is Unlimited "
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="@dimen/_12sdp"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/alertAmountTv"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountAutoBillingView"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Alert Amount " />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/alertAmountEt"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alertAmountTv"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="1000"
+            android:background="@drawable/rounded_unfocused"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="number"
+
+            android:padding="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/maxTransferAmountTv"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alertAmountEt"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Max Transfer Amount" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/maxTransferAmountEt"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxTransferAmountTv"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:inputType="number"
+            android:text="1000"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="sans-serif-medium"
+
+            android:padding="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/maxCreditAmountTv"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxTransferAmountEt"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Max Credit Amount (0 is Unlimited)" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/maxCreditAmountEt"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxCreditAmountTv"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:inputType="number"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="sans-serif-medium"
+
+            android:padding="@dimen/_12sdp" />
+
+
+        <LinearLayout
+            android:id="@+id/fostransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_fill"
+            android:gravity="center"
+            android:layout_below="@id/maxCreditAmountEt"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:padding="@dimen/_5sdp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/activeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:clickable="false" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/amountTxtTv"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fostransfer"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_390sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="isTransferThroughFOS"
+            android:textColor="@android:color/black" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/bottomBtnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountTxtTv"
+            android:layout_marginTop="50dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/cancelBtn"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:background="@drawable/rounded_dark_grey_border"
+                android:padding="@dimen/_12sdp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/greycon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/autobillingsummitBtn"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:background="@drawable/rounded_dark_grey"
+                android:padding="@dimen/_12sdp"
+                android:text="Submit"
+                android:textAllCaps="false"
+
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView><!--</android.support.v7.widget.CardView>-->

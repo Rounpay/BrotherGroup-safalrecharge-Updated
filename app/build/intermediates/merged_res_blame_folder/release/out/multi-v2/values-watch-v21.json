@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.safalrecharges.app-mergeReleaseResources-64:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ashif Roundpay\\.gradle\\caches\\transforms-3\\e850b272f712650002c80276a4ab1386\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

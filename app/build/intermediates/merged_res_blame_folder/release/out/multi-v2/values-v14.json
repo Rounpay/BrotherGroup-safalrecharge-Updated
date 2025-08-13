@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.safalrecharges.app-mergeReleaseResources-64:/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ashif Roundpay\\.gradle\\caches\\transforms-3\\f82c034aeefddcbae361389769e7cac0\\transformed\\jetified-mPaySdk_release_2.0.8_23102019\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "152"
+                    }
+                }
+            ]
+        }
+    ]
+}

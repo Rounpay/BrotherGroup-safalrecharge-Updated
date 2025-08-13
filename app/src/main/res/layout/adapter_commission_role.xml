@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:srcCompat="@drawable/ic_commission_slab" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/userRoleTv"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_toRightOf="@+id/icon"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="User Role"
+        android:textColor="@color/greycon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/comTv"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userRoleTv"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_toRightOf="@+id/icon"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="User Role"
+        android:textColor="@color/grey" />
+</RelativeLayout>

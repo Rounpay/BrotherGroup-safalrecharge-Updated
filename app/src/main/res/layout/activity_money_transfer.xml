@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_second" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/bank"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank" />
+
+            <TextView
+                android:id="@+id/bankname"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bank"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/rect"
+                android:padding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/account"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bankname"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Account" />
+
+            <TextView
+                android:id="@+id/accountNo"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/account"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/rect"
+                android:padding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/Name"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountNo"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/Namebene"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/rect"
+                android:padding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/Amount"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountNo"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Amount" />
+
+            <EditText
+                android:id="@+id/transferAmount"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Namebene"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="serif"
+                android:hint="Amount"
+                android:inputType="number"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/transferTypeLabel"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transferAmount"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="serif"
+
+                android:text="Please select transfer type :" />
+
+
+            <LinearLayout
+                android:id="@+id/transferTypeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transferTypeLabel"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <RelativeLayout
+                    android:id="@+id/impsContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/impsRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:checked="true"
+                        android:gravity="center" />
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/impsRadio"
+                        android:fontFamily="serif"
+
+                        android:gravity="center"
+                        android:text="IMPS"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/neftContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/neftRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:checked="false"
+                        android:gravity="center" />
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/neftRadio"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="NEFT"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/charge_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/transferTypeContainer"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/accountNo"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Pin Password" />
+
+                <EditText
+                    android:id="@+id/pinPassEt"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/transferTypeContainer"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/edittext_bg"
+                    android:fontFamily="serif"
+                    android:hint="Enter Pin Password"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="DMR Charge: " />
+
+                <TextView
+
+                    android:id="@+id/charge"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rect"
+                    android:fontFamily="serif"
+                    android:padding="@dimen/_10sdp"
+                    android:text="" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Total: " />
+
+                <TextView
+
+                    android:id="@+id/total"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rect"
+                    android:fontFamily="serif"
+                    android:padding="@dimen/_10sdp"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/charge_layout"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/submitButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_primary"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Send"
+                    android:textColor="@color/white"
+                   style="@style/TextAppearance.AppCompat.Medium"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/closeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_light_red"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+
+                    android:padding="10dp"
+                    android:text="Close"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

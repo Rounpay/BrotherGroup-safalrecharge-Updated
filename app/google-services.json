@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "685081136524",
+    "firebase_url": "https://brothergroup-b3d02.firebaseio.com",
+    "project_id": "brothergroup-b3d02",
+    "storage_bucket": "brothergroup-b3d02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685081136524:android:b4c2820f9a8c6c9dc49aa9",
+        "android_client_info": {
+          "package_name": "com.solution.brothergroup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685081136524-7lhtfoi0lqgct9ne3sc9v910m5g897j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXAFBWp_0QZGLu338Nc_hJT8sFoFDgZGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685081136524-7lhtfoi0lqgct9ne3sc9v910m5g897j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

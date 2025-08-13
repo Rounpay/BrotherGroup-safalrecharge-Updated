@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_bg"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_second" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/rechargeViewTab"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="Recharge"
+                android:textColor="@android:color/white" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/historyViewTab"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/light_grey"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="History"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_recharge"
+        android:layout_below="@+id/app_bar_layout"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/rechargeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/toolbar"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/rect"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingTop="@dimen/_16sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:paddingBottom="@dimen/_16sdp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_20sdp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:id="@+id/rl_img"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:background="@drawable/rect"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp">
+
+                                <ImageView
+                                    android:id="@+id/iv_phone"
+                                    android:layout_width="@dimen/_35sdp"
+                                    android:layout_height="@dimen/_28sdp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    app:srcCompat="@drawable/ic_post_mobile"
+                                    app:tint="@color/grey" />
+
+                                <LinearLayout
+                                    android:id="@+id/numberView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_toLeftOf="@+id/iv_phone_book"
+                                    android:layout_toRightOf="@+id/iv_phone"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/tv_name"
+                                        style="@style/TextAppearance.AppCompat.Body2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="@dimen/_3sdp"
+                                        android:text="Contact Name"
+                                        android:textColor="@color/black"
+                                        android:visibility="gone" />
+
+                                    <EditText
+                                        android:id="@+id/et_number"
+                                        style="@style/TextAppearance.AppCompat.Medium"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:background="@android:color/transparent"
+                                        android:fontFamily="sans-serif-medium"
+                                        android:hint="Enter Number"
+                                        android:inputType="number"
+                                        android:maxLength="10"
+                                        android:paddingTop="@dimen/_10sdp"
+                                        android:paddingBottom="@dimen/_10sdp"
+                                        android:singleLine="true"
+                                        android:textColor="@color/text_color" />
+
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/iv_phone_book"
+                                    android:layout_width="@dimen/_28sdp"
+                                    android:layout_height="@dimen/_28sdp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="@dimen/_3sdp"
+                                    android:padding="@dimen/_5sdp"
+                                    app:srcCompat="@drawable/note"
+                                     app:tint="@color/colorPrimary"
+                                    android:visibility="gone"/>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/MobileNoCount"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Number Digit- 0"
+                                android:textColor="@color/gre"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/MobileNoError"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:fontFamily="@font/normal"
+                                android:text="jbeugfuegfue"
+                                android:textColor="@color/red"
+                                android:textSize="@dimen/_10sdp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_42sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <RadioButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_20sdp"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:paddingLeft="10dip"
+                            android:text="Prepaid"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dip"
+                            android:text="Postpaid"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </RadioGroup>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_oprator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_oprator"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            app:srcCompat="@drawable/ic_tower" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_toLeftOf="@+id/iv_arrow_op"
+                            android:layout_toRightOf="@+id/iv_oprator"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/tv_operator"
+                                style="@style/TextAppearance.AppCompat.Subhead"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@android:color/transparent"
+                                android:fontFamily="sans-serif-medium"
+                                android:hint="Select Operator"
+                                android:paddingTop="@dimen/_10sdp"
+                                android:paddingBottom="@dimen/_10sdp"
+                                android:singleLine="true"
+                                android:textColor="@color/text_color" />
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_arrow_op"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp"
+                            app:tint="@color/colorPrimary" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/OperatorError"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:fontFamily="@font/normal"
+                        android:text="Please select operator"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/_10sdp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/switchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/lapuSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:thumbTextPadding="@dimen/_5sdp"
+                        android:visibility="gone"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:text="Lapu"
+                        android:gravity="center"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layoutDirection="ltr" />
+
+                   <!-- <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/lapuTv"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="Lapu"
+                        android:textColor="@color/colorAccent" />-->
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/realApiSwitch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:thumbTextPadding="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:text="Recharge With Real"
+                        android:textColor="@color/grey"
+                        android:fontFamily="sans-serif-medium"
+                        android:layoutDirection="ltr"/>
+
+                   <!-- <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/realApiTv"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="Real"
+                        android:textColor="@color/grey" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/toolbar"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/rect"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingTop="@dimen/_16sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:paddingBottom="@dimen/_16sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_3sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_rupees"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_18sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            app:srcCompat="@drawable/ic_rupee_indian"
+                            app:tint="@color/grey" />
+
+                        <EditText
+                            android:id="@+id/et_amount"
+                            style="@style/TextAppearance.AppCompat.Title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_toRightOf="@+id/iv_rupees"
+                            android:background="@android:color/transparent"
+                            android:ellipsize="end"
+                            android:layout_toLeftOf="@+id/cashBackTv"
+                            android:fontFamily="sans-serif-medium"
+                            android:hint="Enter Amount"
+                            android:inputType="number"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/text_color" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/cashBackTv"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:minWidth="@dimen/_75sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/_8sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/rounded_primary_border"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cash Back"/>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/Amounterror"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:fontFamily="@font/normal"
+                        android:text="bdjkwkdwugdwugd"
+                        android:textColor="@color/red"
+                        android:visibility="gone" />
+
+
+                    <TextView
+                        android:id="@+id/noticePlan"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:fontFamily="@font/normal"
+                        android:text="zxczxczxcczxczxcxz"
+                        android:textColor="@color/grey"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/desc"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_toLeftOf="@id/ll_browse_plan"
+                        android:fontFamily="@font/normal"
+                        android:text="dwiho2fi32f"
+                        android:textColor="@color/bottommenu"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:id="@+id/ll_browse_plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layout"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_browse_plan"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:background="@drawable/rounded_primary_border"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:minWidth="@dimen/_80sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="View Plan"
+                            android:textColor="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_pdf_plan"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/rounded_primary_border"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:minWidth="@dimen/_80sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="Plan PDF"
+                            android:textColor="@color/colorPrimary"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/tv_roffer_plan"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/rounded_primary_border"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:minWidth="@dimen/_80sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="Best Offer"
+                            android:textColor="@color/colorPrimary"
+                            android:visibility="visible" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/viewOffer"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@drawable/rounded_grey_border"
+                    android:fontFamily="sans-serif-medium"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:minWidth="@dimen/_180sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:text="Cashback Offers"
+                    android:textColor="@color/bottommenu"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:text="@string/rechage_note"
+                    android:textColor="@color/red"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/historyView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/historyHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/icon_color">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/recentRechargeTv"
+                        style="@style/TextAppearance.AppCompat.Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Recent Transactions"
+                        android:textColor="@color/grey" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/viewMore"
+                        style="@style/TextAppearance.AppCompat.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="View More"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/historyHeader"
+                    android:nestedScrollingEnabled="false" />
+
+                <LinearLayout
+                    android:id="@+id/ll_coming_soon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_120sdp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/dumble" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="Not Recent Recharge yet"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <Button
+        android:id="@+id/bt_recharge"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Recharge"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

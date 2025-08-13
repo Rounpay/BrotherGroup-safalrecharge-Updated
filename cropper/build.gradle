@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion 32
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 32
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.safalrecharges.image.cropper'
+    lint {
+        abortOnError false
+    }
+}
+
+
+
+
+
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+}
+

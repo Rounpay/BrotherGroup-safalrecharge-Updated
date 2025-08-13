@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.solution.safalrecharges"
+    android:versionCode="27"
+    android:versionName="3.7" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="34" />
+
+    <queries>
+
+        <!-- Explicit apps you know in advance about: -->
+
+        <package android:name="org.egram.microatm" />
+        <package android:name="com.mantra.rdservice" />
+        <package android:name="com.scl.rdservice" />
+        <package android:name="com.tatvik.bio.tmf20" />
+        <package android:name="com.acpl.registersdk" />
+        <package android:name="com.precision.pb510.rdservice" />
+        <package android:name="com.secugen.rdservice" />
+        <package android:name="com.nextbiometrics.onetouchrdservice" />
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+        <package android:name="in.org.npci.upiapp" />
+        <package android:name="net.one97.paytm" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.csam.icici.bank.imobile" />
+        <package android:name="com.sbi.upi" />
+        <package android:name="com.upi.axispay" />
+        <package android:name="com.samsung.android.spaymini" />
+        <package android:name="com.samsung.android.spay" />
+        <package android:name="com.snapwork.hdfc" />
+        <package android:name="com.fss.pnbpsp" />
+        <package android:name="com.icicibank.pockets" />
+        <package android:name="com.bankofbaroda.upi" />
+        <package android:name="com.freecharge.android" />
+        <package android:name="com.fss.unbipsp" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.mipay.wallet.in" />
+        <package android:name="in.amazon.mShop.android.shopping" />
+        <package android:name="com.axis.mobile" />
+        <package android:name="com.mycompany.kvb" />
+        <package android:name="com.fss.vijayapsp" />
+        <package android:name="com.dena.upi.gui" />
+        <package android:name="com.fss.jnkpsp" />
+        <package android:name="com.olive.kotak.upi" />
+        <package android:name="com.enstage.wibmo.hdfc" />
+        <package android:name="com.bsb.hike" />
+        <package android:name="com.fss.idfcpsp" />
+        <package android:name="com.YesBank" />
+        <package android:name="com.abipbl.upi" />
+        <package android:name="com.microsoft.mobile.polymer" />
+        <package android:name="com.finopaytech.bpayfino" />
+        <package android:name="com.mgs.obcbank" />
+        <package android:name="com.upi.federalbank.org.lotza" />
+        <package android:name="com.mgs.induspsp" />
+        <package android:name="ai.wizely.android" />
+        <package android:name="com.olive.dcb.upi" />
+        <package android:name="com.mgs.yesmerchantnative.prod" />
+        <package android:name="com.dbs.in.digitalbank" />
+        <package android:name="com.mobikwik_new" />
+        <package android:name="com.rblbank.mobank" />
+        <package android:name="in.chillr" />
+        <package android:name="com.citrus.citruspay" />
+        <package android:name="com.SIBMobile" />
+        <package android:name="com.truecaller" />
+        <package android:name="com.olacabs.customer" />
+        <package android:name="com.myairtelapp" />
+        <package android:name="com.paytmmall" />
+        <package android:name="com.gbwhatsapp" />
+        <package android:name="com.msf.angelmobile" />
+        <package android:name="com.fundsindia" />
+        <package android:name="com.muthootfinance.imuthoot" />
+        <package android:name="com.angelbroking.angelwealth" />
+        <package android:name="co.aratek.asix_gms.rdservice" />
+        <package android:name="com.evolute.rdservice" />
+        <package android:name="com.mantra.mis100v2.rdservice" /> <!-- Specific apps you interact with, eg: -->
+        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+        <!--
+             Specific intents you query for,
+             eg: for a custom share UI
+        -->
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data
+                android:mimeType="*/*"
+                android:scheme="*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data
+                android:host="pay"
+                android:mimeType="*/*"
+                android:scheme="upi" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+
+            <data android:mimeType="*/*" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLAND" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLANDUART3" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <uses-feature
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-feature
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        android:required="false" />
+    <uses-feature
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.solution.safalrecharges.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.solution.safalrecharges.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="false"
+        android:allowClearUserData="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.solution.safalrecharges.Fragments.TermAndCondition"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Authentication.PrivacyPolicy"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.NSDL.NSDLActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.CMS.Activity.CmsReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.UpgradePacakge.ui.UpgradePackage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.MoveToWallet.ui.MoveToWalletNew"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Util.RechargeStatusActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.MoveToBankReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.SettlementBankListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.UpdateAddSettlementBankActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AddMoney.AddMoneyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.AccountOpenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.QRScan.Activity.QRScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.QRScan.Activity.QRPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.QRScan.Activity.UPIPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.DMTWithPipe.ui.DMRLoginNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DMTWithPipe.ui.AddBeneficiaryNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DMTWithPipe.ui.BeneficiaryListScreenNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DMTWithPipe.ui.DMRRecieptNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DMTWithPipe.ui.MoneyTransferNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.RechargeHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.RechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.BillFetchInfoScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.RechargeProviderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.SecondRechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Fragments.Adapter.UpgradePackage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.FingPayAEPSDashBoardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.AEPSBankListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.solution.safalrecharges.Aeps.UI.AEPSMiniStatementRPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.Aeps.UI.AEPSStatusRPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.Aeps.UI.AepsCashWithDrawlActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Aeps.UI.MiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.AEPSDepositStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.AEPSStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.MicroAtm.Activity.MiniAtmRecriptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.MicroAtm.Activity.MicroATMStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.MicroAtm.Activity.MicroAtmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.EKYCProcessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.FingPayAEPS.AEPSMiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.SpecificRechargeReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.UPIPayment.UI.UPIQRCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.MultiImageUploadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.UPIPayment.UI.QrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.UPIPayment.UI.QrBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.PSA.UI.PurchaseToken"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.PSA.UI.PanApplicationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.PSA.UI.UTILogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.AchievedTargetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.solution.safalrecharges.DTH.Activity.DthPackageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DTH.Activity.DthSubscriptionStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DTH.Activity.DthChannelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DTH.Activity.DTHSubscriptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DTH.Activity.DthSubscriptionReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+             <activity
+             android:name="com.solution.s.recharge.Activities.QrBankActivity"
+             android:configChanges="orientation|keyboardHidden|screenSize"
+             android:screenOrientation="portrait"
+             android:theme="@style/Appnew" />
+        -->
+        <!--
+            activity
+            android:name="com.solution.s.recharge.Activities.QrCodeActivity"
+            android:screenOrientation="portrait" />
+        -->
+
+        <activity
+            android:name="com.solution.safalrecharges.Aeps.UI.AEPSReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.QrBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.QrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.Authentication.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.MoveToWallet.ui.MoveToWallet"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.BankDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.DthSupportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Notification.NotificationListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.UserDayBookActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.AppUserListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FosCollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.VoucherEntryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FosCollectionBankListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.VoucherEntryUserListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FosReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.AccountStatementReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.AccountStatementServiceWiseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FOSAccStmtAndCollActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FosAreaReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.FosUserListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.AppUser.Activity.ChannelReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.UpdateProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.UpdateBankActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.CreateUserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.DMRNEW.ui.DMRLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.FundOrderPendingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Notification.NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.RECHARGEANDBBPS.UI.SlipActivityRechargeReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.solution.safalrecharges.Splash.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.solution.safalrecharges.Authentication.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.SignUp.SignUp"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.SelectZoneOption"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.solution.safalrecharges.DMRNEW.ui.DMRReciept"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+
+        <activity
+            android:name="com.solution.safalrecharges.Activities.MiniStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name="com.solution.safalrecharges.Notification.service.MyFirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.solution.safalrecharges.Activities.FundRecReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.DisputeReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DMRNEW.ui.BeneficiaryListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.DMRNEW.ui.MoneyTransfer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.DMRNEW.ui.AddBeneficiary"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.BankListScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.DMRReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.UserDayBook.ui.UserDayBookScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.CommissionSlab.ui.CommissionScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.LedgerReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.PaymentRequest"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.FundReqReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.Activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Util.Viewbill"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.ROffer.UI.ROfferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew" />
+        <activity
+            android:name="com.solution.safalrecharges.BrowsePlan.ui.BrowsePlanScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DthCustomerInfo.ui.DthConsumerInfoScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DthPlan.UI.DthPlanInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DthPlan.UI.DthPlanInfoNewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.DthPlan.UI.DthPlanChannelListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.W2RRequest.report.W2RHistory"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.PaymentTransactionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.RKIProcessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.SignatureCaptureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.PaymentDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.PaymentDetailsSlipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.TransactionDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.SendSMSEmailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.TransactionStatusActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.PaynearActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.PaynearActivationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.EmiPaymentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.solution.safalrecharges.Paynear.Activity.EmipaymentwithCodeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Appnew"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service
+            android:name="com.anfu.pos.library.bluetooth4.BluetoothLeService"
+            android:enabled="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.solution.safalrecharges.smart-image-picker-provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.AddAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.OrderDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.CartDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.ProductDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.OrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.ProductListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.AddressListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.TrendingProductListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.AllCategoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.FilterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.roundpay.shoppinglib.Shopping.Activity.ShopDashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme" />
+        <activity
+            android:name="com.paysprint.onboardinglib.activities.DetailShowFino"
+            android:exported="false" />
+        <activity android:name="com.paysprint.onboardinglib.activities.AadhaarVerification" />
+        <activity
+            android:name="com.paysprint.onboardinglib.activities.PanImageUpload"
+            android:screenOrientation="userPortrait" />
+        <activity android:name="com.paysprint.onboardinglib.activities.AddressUpdateActivity" />
+        <activity android:name="com.paysprint.onboardinglib.activities.AadhaarEKYCActivity" />
+        <activity android:name="com.paysprint.onboardinglib.activities.AadhaarVerificationActivity" />
+        <activity android:name="com.paysprint.onboardinglib.activities.PanImageActivity" />
+        <activity android:name="com.paysprint.onboardinglib.activities.PanActivity" />
+        <activity android:name="com.paysprint.onboardinglib.activities.HostActivity" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CameraTheme" />
+        <activity
+            android:name="com.cashfree.pg.ui.web_checkout.CFPaymentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.cashfree.pg.ui.CFResponseHandlerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.upi.CFUPIPaymentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.amazonpay.AmazonPayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.gpay.GooglePayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.phonepe.CFPhonePayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.simulator.CFUPITestAppActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.cashfree.pg.ui.simulator.CFUPITestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <provider
+            android:name="com.cashfree.pg.CashfreeAndroidSdkContentProvider"
+            android:authorities="com.solution.safalrecharges.cashfreeandroidsdkcontentprovider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="cashfree_pg_core_auto_initialization_enabled"
+            android:value="@bool/cashfree_pg_core_auto_initialize_enabled" />
+        <meta-data
+            android:name="cashfree_pg_core_reporting_enabled"
+            android:value="@bool/cashfree_pg_core_reporting_enabled" />
+
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+            android:theme="@style/TransparentActivityTheme" />
+
+        <service
+            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+            android:exported="false" />
+        <service
+            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+            android:exported="false" />
+        <service
+            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="easypay.appinvoke.utils.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+        <activity
+            android:name="com.safalrecharges.image.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="com.safalrecharges.imagepicker.CustomFileProvider"
+            android:authorities="com.solution.safalrecharges.smart-image-picker-provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity android:name="com.test.pg.secure.pgsdkv4.PaymentGatewayPaymentActivity" />
+        <!--
+        <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@android:mipmap/sym_def_app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.roundpay.emoneylib.MicroATM.MAA"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.roundpay.emoneylib.AEPS.AEPSBLS" />
+        <activity
+            android:name="com.roundpay.emoneylib.AEPS.AEPSDA"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.roundpay.emoneylib.AEPS.EKYCPA" />
+        <activity
+            android:name="com.roundpay.emoneylib.EMoneyLoginActivity"
+            android:theme="@style/AppTheme.NoDisplay" />
+        <activity
+            android:name="com.roundpay.emoneylib.Paynear.PAA"
+            android:theme="@style/AppTheme.NoDisplay" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.EPA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.EPWCA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.PDA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.RKIPA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.SCA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.TSA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.TDA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.SSMSEA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.PA" />
+        <activity android:name="com.roundpay.emoneylib.Paynear.PTA" />
+
+        <service
+            android:name="com.tapits.ubercms_bc_sdk.MyFirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.tapits.ubercms_bc_sdk.MyFirebaseMessagingServiceTest"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.tapits.ubercms_bc_sdk.MyFirebaseInstanceIDService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.tapits.ubercms_bc_sdk.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            &lt;!&ndash; ressource file to create &ndash;&gt;
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDCqU7Sw_Ks1bjGSSoRMT1FrLjHum3PRLY" />
+
+        <activity
+            android:name="com.fingpay.microatmsdk.MicroAtmLoginScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:noHistory="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.MATMHistoryScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:noHistory="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.DeviceConnectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.VendorVerifyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.GetKekActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.DecryptAndLoadKekActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.KekVerfActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.GetKeysActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.LoadMainKeyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.LoadDukptActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.KeysVerfActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.EmvAidParamsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.SetEmvTagActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.DownloadAidActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.ClearCapkActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.DownloadPukActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.GetLimitsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.SwipeCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.ReadCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.InputPinActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.PostDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.SavePosTxnActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.MosambeeStartProcessActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.fingpay.microatmsdk.PostMosambeeDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="org.egram.aepslib.DashboardActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.MobileVerActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.MobileVerifyActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.CashWithdrawActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.BalanceInquiryActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.ChangeDeviceRegisterActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.BankSelectionActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.CustomerRegisterActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.OtpTestingActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.iciciAeps.IciciCashWithdrawActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="org.egram.aepslib.aeps.iciciAeps.IciciBalanceInquiryActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="org.egram.aepslib.aeps.AepsReceiptActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.iciciAeps.IciciAepsReceiptActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="org.egram.aepslib.aeps.kotakAeps.KotakBalanceInquiryActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="org.egram.aepslib.aeps.kotakAeps.KotakCashWithdrawActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="org.egram.aepslib.aeps.kotakAeps.KotakAepsReceiptActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name="com.mosambee.lib.EMIDialog" />
+        <activity android:name="com.mosambee.lib.FlipHandler" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.plugin.googlepay_all"
+            android:value="com.razorpay.RzpGpayMerged" />
+
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.LoginScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:debuggable="true"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.ConfirmationScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.ReferenceScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.Successscreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.HistoryScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CameraActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:noHistory="true"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsIciciDenominationsScreen"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CameraScreen"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsBajajAgentScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSuccessScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.WebPage"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsIciciScanScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsIciciAgentScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsOtpScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsMahindraAgentScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsScanQrScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsAmulScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsMuthootScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsHeroScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSamastaBranchScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSamastaCenterScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSamastaGroupScren"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSamastaCustomersScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsMidlandScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsIciciPostScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsIciciTestScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.AdaniDetailsScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.AdaniCustomerIdScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.AdaniOtpScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSvatantraNewScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSvatantraCustNewScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.OtpRefIdScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.HistoryNewScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsTataCapitalScanScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsTataCapitalScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsTataOtpScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.tapits.ubercms_bc_sdk.CmsSatyaScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.solution.safalrecharges.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.solution.safalrecharges.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

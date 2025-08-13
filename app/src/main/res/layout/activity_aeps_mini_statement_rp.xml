@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_bgg"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/shareView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/back_bgg"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_12sdp">
+
+                <ImageView
+                    android:id="@+id/statusIcon"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_check_circle_black_24dp" />
+
+                <TextView
+                    android:id="@+id/statusTv"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Mini Statement"
+                    android:textColor="@color/green"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/statusMsg"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:text="Mini Statement"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/logoIv"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/rnd_logo" />
+
+                <TextView
+                    android:id="@+id/companyName"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <LinearLayout
+                    android:id="@+id/addressDetailsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/address"
+                            style="@style/TextAppearance.AppCompat.Body1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7.5"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="center_vertical"
+                            android:textColor="@android:color/black" />
+
+
+                        <ImageView
+                            android:id="@+id/bbpsLogo"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_weight="2.5"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/aeps_logo" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardElevation="0dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_5sdp">
+                        <TextView
+                            style="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8sdp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="Transactions Details"
+                            android:textColor="@android:color/black" />
+
+
+                        <!--<RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp">
+
+                            <ImageView
+
+                                android:id="@+id/operatorImage"
+                                android:layout_width="@dimen/_33sdp"
+                                android:layout_height="@dimen/_33sdp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/ic_tower" />
+
+                            <TextView
+                                android:id="@+id/opTv"
+                                style="@style/TextAppearance.AppCompat.Subhead"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/bbpsLogo"
+                                android:layout_toRightOf="@+id/operatorImage"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:gravity="center_vertical"
+                                android:padding="@dimen/_5sdp"
+                                android:text=""
+                                android:textColor="@android:color/black" />
+
+
+                            <ImageView
+
+                                android:id="@+id/bbpsLogo"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:adjustViewBounds="true"
+                                app:srcCompat="@drawable/aeps_logo" />
+                        </RelativeLayout>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:background="@color/grey"
+                            android:orientation="vertical"
+                            android:padding="@dimen/_1sdp">
+
+                            <LinearLayout
+                                android:id="@+id/bankView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    style="@style/TextAppearance.AppCompat.Body2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/_1sdp"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="0.9"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="Bank Name"
+                                    android:textColor="@android:color/black" />
+
+                                <TextView
+                                    android:id="@+id/opTv"
+                                    style="@style/TextAppearance.AppCompat.Caption"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="1.1"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/colorAccent" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    style="@style/TextAppearance.AppCompat.Body2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/_1sdp"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="0.9"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="AADHAR Number"
+                                    android:textColor="@android:color/black" />
+
+                                <TextView
+                                    android:id="@+id/numTv"
+                                    style="@style/TextAppearance.AppCompat.Caption"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="1.1"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/colorAccent" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/deviceView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    style="@style/TextAppearance.AppCompat.Body2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/_1sdp"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="0.9"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="Device"
+                                    android:textColor="@android:color/black" />
+
+                                <TextView
+                                    android:id="@+id/deviceTv"
+                                    style="@style/TextAppearance.AppCompat.Caption"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+                                    android:layout_weight="1.1"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/colorAccent" />
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    style="@style/TextAppearance.AppCompat.Body2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="@dimen/_1sdp"
+                                    android:layout_weight="0.9"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="Current Balance"
+                                    android:textColor="@android:color/black" />
+
+                                <TextView
+                                    android:id="@+id/balTv"
+                                    style="@style/TextAppearance.AppCompat.Caption"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.1"
+                                    android:background="@android:color/white"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/_5sdp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/colorAccent" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:background="@color/grey"
+                            android:padding="@dimen/_1sdp">
+
+
+                            <TextView
+                                style="@style/TextAppearance.AppCompat.Body2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_1sdp"
+                                android:layout_weight="1.1"
+                                android:background="@android:color/white"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/_2sdp"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:text="Transaction Date"
+                                android:textColor="@android:color/black" />
+
+
+                            <TextView
+                                style="@style/TextAppearance.AppCompat.Body2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_1sdp"
+                                android:layout_weight="1.1"
+                                android:background="@android:color/white"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/_2sdp"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:text="Description"
+                                android:textColor="@android:color/black" />
+
+
+                            <TextView
+                                style="@style/TextAppearance.AppCompat.Body2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8"
+                                android:background="@android:color/white"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/_2sdp"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text="Amount"
+                                android:textColor="@color/colorAccent" />
+
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:nestedScrollingEnabled="false"
+                            tools:itemCount="5"
+                            tools:listitem="@layout/adapter_mini_statement_rp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Shop Details"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/outletDetail"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:padding="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/bt_repeat"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/rounded_accent"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:visibility="gone">
+
+
+                    <TextView
+
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Repeat"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bt_share"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/rounded_accent"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp">
+
+
+                    <TextView
+
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Share"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bt_whatsapp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/whatsappColor"
+                    android:background="@drawable/rounded_accent"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:visibility="gone">
+
+
+                    <TextView
+
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Whatsapp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/closeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        android:padding="@dimen/_8sdp"
+        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.brothergroup.app-mergeDebugResources-63:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ashif Roundpay\\.gradle\\caches\\transforms-3\\b94334e0cdebbbdfaa1a8cdef313f580\\transformed\\jetified-mPaySdk_release_2.0.8_23102019\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "138"
+                    }
+                }
+            ]
+        }
+    ]
+}
